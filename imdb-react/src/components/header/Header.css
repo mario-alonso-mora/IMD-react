@@ -1,0 +1,35 @@
+.header {
+    margin: 0 0.0rem;
+    padding: 0.9rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(236, 236, 11);
+    
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: rgb(6, 6, 6);
+}
+
+a > span:hover {
+    color: rgb(255, 0, 0);
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
